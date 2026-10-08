@@ -1,0 +1,25 @@
+LangGraph is a framework for building stateful applications
+using large language models.
+
+A graph consists of nodes and edges.
+Nodes perform operations, while edges define the flow
+between nodes.
+
+A State object stores information shared between nodes.
+
+Conditional edges allow the graph to choose its next step
+based on the current state.
+
+Tool calling allows a language model to request the execution
+of external functions.
+
+A tool must be executed by the application.
+The tool result can then be returned to the language model.
+
+RAG stands for Retrieval-Augmented Generation.
+It allows a language model to use retrieved external information
+when generating an answer.
+
+Embeddings represent text as numerical vectors.
+A retriever uses a search strategy to find relevant documents
+or document chunks for a given query.
